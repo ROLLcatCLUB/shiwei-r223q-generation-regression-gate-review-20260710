@@ -1,0 +1,59 @@
+{
+  "sample_id": "O_color_collision",
+  "unit_phase_role": "intro_understanding",
+  "practice_intensity": "medium",
+  "teacher_support_density": "normal",
+  "events": [
+    {
+      "event_id": "O_01_campus_color",
+      "primary_pattern": "observation_discovery",
+      "secondary_patterns": ["artwork_appreciation"],
+      "activated_adapter_fields": ["aesthetic_language_focus"],
+      "component_trigger": [{"component_id": "image_color_spotting", "status": "new_surface_candidate"}],
+      "screen_trigger": "校园色彩照片",
+      "learning_sheet_fields": ["campus_color_question"],
+      "evidence_outputs": ["校园色彩观察句"]
+    },
+    {
+      "event_id": "O_02_primary_colors",
+      "primary_pattern": "observation_discovery",
+      "secondary_patterns": ["material_experiment"],
+      "activated_adapter_fields": ["material_safety_or_management"],
+      "component_trigger": [{"component_id": "experiment_rule_card", "status": "new_surface_candidate"}],
+      "screen_trigger": "红黄蓝实验规则",
+      "learning_sheet_fields": ["primary_color_reason"],
+      "evidence_outputs": ["三原色起点记录"]
+    },
+    {
+      "event_id": "O_03_two_color_mix",
+      "primary_pattern": "material_experiment",
+      "secondary_patterns": ["micro_practice"],
+      "activated_adapter_fields": ["micro_practice_type", "student_practice_output", "transition_to_formal_creation"],
+      "component_trigger": [{"component_id": "color_mixing_trial", "status": "new_surface_candidate"}],
+      "screen_trigger": "两色调和步骤",
+      "learning_sheet_fields": ["color_mix_record"],
+      "evidence_outputs": ["间色调色样本"]
+    },
+    {
+      "event_id": "O_04_color_difference",
+      "primary_pattern": "comparison_judgment",
+      "secondary_patterns": ["observation_discovery"],
+      "activated_adapter_fields": ["aesthetic_language_focus"],
+      "component_trigger": [{"component_id": "compare_color_swatches", "status": "new_surface_candidate"}],
+      "screen_trigger": "同色不同偏向对照",
+      "learning_sheet_fields": ["color_difference_sentence"],
+      "evidence_outputs": ["同色差异句"]
+    },
+    {
+      "event_id": "O_05_color_showcase",
+      "primary_pattern": "showcase_evaluation",
+      "secondary_patterns": ["closure_transfer"],
+      "activated_adapter_fields": ["stage_evidence_link", "process_evidence"],
+      "component_trigger": [{"component_id": "gallery_walk", "status": "already_registered"}],
+      "screen_trigger": "色彩分享句式",
+      "learning_sheet_fields": ["color_name_source_feeling"],
+      "evidence_outputs": ["色彩命名卡", "展示评价记录"]
+    }
+  ]
+}
+
