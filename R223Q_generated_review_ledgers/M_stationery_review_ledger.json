@@ -1,0 +1,59 @@
+{
+  "sample_id": "M_stationery",
+  "unit_phase_role": "practice_creation",
+  "practice_intensity": "high",
+  "teacher_support_density": "heavy",
+  "events": [
+    {
+      "event_id": "M_01_structure_recall",
+      "primary_pattern": "observation_discovery",
+      "secondary_patterns": ["artwork_appreciation"],
+      "activated_adapter_fields": ["aesthetic_language_focus", "artwork_reference_type"],
+      "component_trigger": [{"component_id": "circle_and_annotate", "status": "already_registered"}],
+      "screen_trigger": "毛笔工序图和文具结构圈画",
+      "learning_sheet_fields": ["structure_use_relation"],
+      "evidence_outputs": ["一个结构和一个使用作用"]
+    },
+    {
+      "event_id": "M_02_designer_thinking",
+      "primary_pattern": "idea_generation",
+      "secondary_patterns": ["comparison_judgment"],
+      "activated_adapter_fields": ["student_practice_output", "transition_to_formal_creation"],
+      "component_trigger": [{"component_id": "compare_two_images", "status": "already_registered"}],
+      "screen_trigger": "文具小巧思案例",
+      "learning_sheet_fields": ["small_problem_small_solution"],
+      "evidence_outputs": ["小麻烦和小办法"]
+    },
+    {
+      "event_id": "M_03_one_plus_one",
+      "primary_pattern": "micro_practice",
+      "secondary_patterns": ["comparison_judgment"],
+      "activated_adapter_fields": ["micro_practice_type", "student_practice_output", "transition_to_formal_creation", "process_evidence"],
+      "component_trigger": [{"component_id": "photo_submit", "status": "already_registered"}],
+      "screen_trigger": "装饰与功能对比",
+      "learning_sheet_fields": ["problem_material_change"],
+      "evidence_outputs": ["小设计照片", "改进理由"]
+    },
+    {
+      "event_id": "M_04_one_plus_n",
+      "primary_pattern": "creation_progression",
+      "secondary_patterns": ["teacher_demonstration", "material_experiment"],
+      "activated_adapter_fields": ["demonstration_type", "technique_breakthrough_point", "checkpoint", "process_evidence"],
+      "component_trigger": [{"component_id": "material_choice_board", "status": "new_surface_candidate"}],
+      "screen_trigger": "盘绕技法和材料选择对比",
+      "learning_sheet_fields": ["material_method_reason"],
+      "evidence_outputs": ["作品照片", "材料理由", "调整记录"]
+    },
+    {
+      "event_id": "M_05_showcase_transfer",
+      "primary_pattern": "showcase_evaluation",
+      "secondary_patterns": ["closure_transfer"],
+      "activated_adapter_fields": ["performance_task_link", "stage_evidence_link"],
+      "component_trigger": [{"component_id": "gallery_walk", "status": "already_registered"}],
+      "screen_trigger": "展示句式和单元任务标题",
+      "learning_sheet_fields": ["presentation_sentence", "gift_sentence"],
+      "evidence_outputs": ["展示语", "赠笔语", "使用建议"]
+    }
+  ]
+}
+
