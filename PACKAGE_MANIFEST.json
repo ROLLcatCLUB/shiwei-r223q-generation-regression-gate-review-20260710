@@ -1,0 +1,38 @@
+{
+  "stage_id": "1013R_R223Q_TRUE_GENERATION_REGRESSION_GATE",
+  "status": "fixture_driven_generation_regression_gate",
+  "decision": "PASS_CONTINUE_TO_R223R_V0_2_CANDIDATE_PILOT_ROUTE_PLANNING",
+  "schema_v0_2_published": false,
+  "formal_ui": false,
+  "r97b_modified": false,
+  "frontend_backend_modified": false,
+  "formal_runtime_connected": false,
+  "provider_model_connected": false,
+  "prompt_modified": false,
+  "database_written": false,
+  "lesson_body_written": false,
+  "existing_teacher_drafts_modified": false,
+  "r222d_component_library_modified": false,
+  "formal_apply": false,
+  "samples": ["M_stationery", "N_paper_print", "O_color_collision"],
+  "files": [
+    "R223Q_generation_regression_plan.md",
+    "R223Q_sample_generation_inputs.json",
+    "R223Q_generated_teacher_default_drafts/M_stationery_teacher_default_draft.md",
+    "R223Q_generated_teacher_default_drafts/N_paper_print_teacher_default_draft.md",
+    "R223Q_generated_teacher_default_drafts/O_color_collision_teacher_default_draft.md",
+    "R223Q_generated_review_ledgers/M_stationery_review_ledger.json",
+    "R223Q_generated_review_ledgers/N_paper_print_review_ledger.json",
+    "R223Q_generated_review_ledgers/O_color_collision_review_ledger.json",
+    "R223Q_teacher_default_view_quality_check.md",
+    "R223Q_review_ledger_completeness_check.md",
+    "R223Q_unit_intensity_effect_check.md",
+    "R223Q_component_trigger_safety_check.md",
+    "R223Q_regression_decision_report.md",
+    "validate_1013R_R223Q_true_generation_regression_gate.py",
+    "validate_1013R_R223Q_true_generation_regression_gate_result.json",
+    "README_FOR_GPT_REVIEW.md",
+    "PACKAGE_MANIFEST.json"
+  ]
+}
+
