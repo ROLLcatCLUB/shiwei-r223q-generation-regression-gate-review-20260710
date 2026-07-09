@@ -1,0 +1,46 @@
+{
+  "stage_id": "1013R_R223Q_TRUE_GENERATION_REGRESSION_GATE",
+  "status": "fixture_generation_inputs_only",
+  "source_standard": "R223P_5_CLASSROOM_EVENT_STANDARD_V0_2_CANDIDATE",
+  "schema_v0_2_published": false,
+  "formal_runtime_connected": false,
+  "samples": [
+    {
+      "sample_id": "M_stationery",
+      "title": "我为文具代言 第三阶段 智造·新朋友",
+      "unit_phase_role": "practice_creation",
+      "lesson_position_in_unit": "late",
+      "practice_intensity": "high",
+      "student_work_time_ratio": "high",
+      "teacher_support_density": "heavy",
+      "generation_focus": "high_density_creation_support",
+      "must_show": ["课时位置", "创作推进", "教师巡视", "过程证据", "单元任务连接"],
+      "must_not_show": ["字段名", "组件货架", "runtime 执行暗示"]
+    },
+    {
+      "sample_id": "N_paper_print",
+      "title": "有趣的纸印",
+      "unit_phase_role": "technique_preparation",
+      "lesson_position_in_unit": "middle",
+      "practice_intensity": "medium",
+      "student_work_time_ratio": "medium",
+      "teacher_support_density": "normal",
+      "generation_focus": "material_technique_trial_and_evidence",
+      "must_show": ["纸材预测", "试印记录", "印法比较", "作品说明"],
+      "must_not_show": ["文具改造内容", "红黄蓝色彩内容", "字段名"]
+    },
+    {
+      "sample_id": "O_color_collision",
+      "title": "色彩的碰撞",
+      "unit_phase_role": "intro_understanding",
+      "lesson_position_in_unit": "early",
+      "practice_intensity": "medium",
+      "student_work_time_ratio": "medium",
+      "teacher_support_density": "normal",
+      "generation_focus": "color_perception_and_experiment",
+      "must_show": ["校园取色", "三原色实验", "色彩差异", "色彩表达"],
+      "must_not_show": ["文具内容", "纸印版画车间内容", "字段名"]
+    }
+  ]
+}
+
