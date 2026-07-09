@@ -1,0 +1,59 @@
+{
+  "sample_id": "N_paper_print",
+  "unit_phase_role": "technique_preparation",
+  "practice_intensity": "medium",
+  "teacher_support_density": "normal",
+  "events": [
+    {
+      "event_id": "N_01_task_entry",
+      "primary_pattern": "comparison_judgment",
+      "secondary_patterns": ["observation_discovery"],
+      "activated_adapter_fields": ["aesthetic_language_focus", "artwork_reference_type"],
+      "component_trigger": [{"component_id": "compare_two_images", "status": "already_registered"}],
+      "screen_trigger": "画出来和印出来对比",
+      "learning_sheet_fields": ["print_mark_observation"],
+      "evidence_outputs": ["印痕观察句"]
+    },
+    {
+      "event_id": "N_02_material_observation",
+      "primary_pattern": "material_experiment",
+      "secondary_patterns": ["observation_discovery"],
+      "activated_adapter_fields": ["material_safety_or_management", "student_practice_output"],
+      "component_trigger": [{"component_id": "material_blind_box", "status": "already_registered"}],
+      "screen_trigger": "纸材观察词库",
+      "learning_sheet_fields": ["paper_prediction"],
+      "evidence_outputs": ["纸材预测句"]
+    },
+    {
+      "event_id": "N_03_texture_demo",
+      "primary_pattern": "teacher_demonstration",
+      "secondary_patterns": ["micro_practice"],
+      "activated_adapter_fields": ["demonstration_type", "micro_practice_type", "student_practice_output", "transition_to_formal_creation"],
+      "component_trigger": [{"component_id": "technique_step_demo", "status": "already_registered"}],
+      "screen_trigger": "揉撕折拼贴方法图",
+      "learning_sheet_fields": ["texture_method"],
+      "evidence_outputs": ["改造小样"]
+    },
+    {
+      "event_id": "N_04_first_print",
+      "primary_pattern": "micro_practice",
+      "secondary_patterns": ["material_experiment"],
+      "activated_adapter_fields": ["micro_practice_type", "student_practice_output", "transition_to_formal_creation"],
+      "component_trigger": [{"component_id": "circle_and_annotate", "status": "already_registered"}],
+      "screen_trigger": "少量上色、均匀压印、慢揭纸",
+      "learning_sheet_fields": ["test_print_record"],
+      "evidence_outputs": ["试印记录", "调整计划"]
+    },
+    {
+      "event_id": "N_05_showcase",
+      "primary_pattern": "showcase_evaluation",
+      "secondary_patterns": ["closure_transfer"],
+      "activated_adapter_fields": ["stage_evidence_link", "process_evidence"],
+      "component_trigger": [{"component_id": "gallery_wall", "status": "already_registered"}],
+      "screen_trigger": "纸材、印法、印痕评价词",
+      "learning_sheet_fields": ["artwork_statement"],
+      "evidence_outputs": ["作品说明", "试印证据归档"]
+    }
+  ]
+}
+
