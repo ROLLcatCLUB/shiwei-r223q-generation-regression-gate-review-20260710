@@ -1,0 +1,834 @@
+{
+  "passed": true,
+  "check_count": 205,
+  "failed": 0,
+  "failures": [],
+  "decision": "PASS_CONTINUE_TO_R223R_V0_2_CANDIDATE_PILOT_ROUTE_PLANNING",
+  "checks": [
+    {
+      "check": "required_file:R223Q_generation_regression_plan.md",
+      "passed": true
+    },
+    {
+      "check": "required_file:R223Q_sample_generation_inputs.json",
+      "passed": true
+    },
+    {
+      "check": "required_file:R223Q_generated_teacher_default_drafts/M_stationery_teacher_default_draft.md",
+      "passed": true
+    },
+    {
+      "check": "required_file:R223Q_generated_teacher_default_drafts/N_paper_print_teacher_default_draft.md",
+      "passed": true
+    },
+    {
+      "check": "required_file:R223Q_generated_teacher_default_drafts/O_color_collision_teacher_default_draft.md",
+      "passed": true
+    },
+    {
+      "check": "required_file:R223Q_generated_review_ledgers/M_stationery_review_ledger.json",
+      "passed": true
+    },
+    {
+      "check": "required_file:R223Q_generated_review_ledgers/N_paper_print_review_ledger.json",
+      "passed": true
+    },
+    {
+      "check": "required_file:R223Q_generated_review_ledgers/O_color_collision_review_ledger.json",
+      "passed": true
+    },
+    {
+      "check": "required_file:R223Q_teacher_default_view_quality_check.md",
+      "passed": true
+    },
+    {
+      "check": "required_file:R223Q_review_ledger_completeness_check.md",
+      "passed": true
+    },
+    {
+      "check": "required_file:R223Q_unit_intensity_effect_check.md",
+      "passed": true
+    },
+    {
+      "check": "required_file:R223Q_component_trigger_safety_check.md",
+      "passed": true
+    },
+    {
+      "check": "required_file:R223Q_regression_decision_report.md",
+      "passed": true
+    },
+    {
+      "check": "required_file:PACKAGE_MANIFEST.json",
+      "passed": true
+    },
+    {
+      "check": "required_file:README_FOR_GPT_REVIEW.md",
+      "passed": true
+    },
+    {
+      "check": "manifest_stage",
+      "passed": true
+    },
+    {
+      "check": "decision",
+      "passed": true
+    },
+    {
+      "check": "boundary_false:schema_v0_2_published",
+      "passed": true
+    },
+    {
+      "check": "boundary_false:formal_ui",
+      "passed": true
+    },
+    {
+      "check": "boundary_false:r97b_modified",
+      "passed": true
+    },
+    {
+      "check": "boundary_false:frontend_backend_modified",
+      "passed": true
+    },
+    {
+      "check": "boundary_false:formal_runtime_connected",
+      "passed": true
+    },
+    {
+      "check": "boundary_false:provider_model_connected",
+      "passed": true
+    },
+    {
+      "check": "boundary_false:prompt_modified",
+      "passed": true
+    },
+    {
+      "check": "boundary_false:database_written",
+      "passed": true
+    },
+    {
+      "check": "boundary_false:lesson_body_written",
+      "passed": true
+    },
+    {
+      "check": "boundary_false:existing_teacher_drafts_modified",
+      "passed": true
+    },
+    {
+      "check": "boundary_false:r222d_component_library_modified",
+      "passed": true
+    },
+    {
+      "check": "boundary_false:formal_apply",
+      "passed": true
+    },
+    {
+      "check": "input_sample:M_stationery",
+      "passed": true
+    },
+    {
+      "check": "draft_exists:M_stationery",
+      "passed": true
+    },
+    {
+      "check": "ledger_exists:M_stationery",
+      "passed": true
+    },
+    {
+      "check": "teacher_no_forbidden:M_stationery:practice_pattern_type",
+      "passed": true
+    },
+    {
+      "check": "teacher_no_forbidden:M_stationery:demonstration_type",
+      "passed": true
+    },
+    {
+      "check": "teacher_no_forbidden:M_stationery:micro_practice_type",
+      "passed": true
+    },
+    {
+      "check": "teacher_no_forbidden:M_stationery:appreciation_scaffold_type",
+      "passed": true
+    },
+    {
+      "check": "teacher_no_forbidden:M_stationery:component_trigger",
+      "passed": true
+    },
+    {
+      "check": "teacher_no_forbidden:M_stationery:component_trigger_status",
+      "passed": true
+    },
+    {
+      "check": "teacher_no_forbidden:M_stationery:screen_trigger",
+      "passed": true
+    },
+    {
+      "check": "teacher_no_forbidden:M_stationery:learning_sheet_fields",
+      "passed": true
+    },
+    {
+      "check": "teacher_no_forbidden:M_stationery:primary_pattern",
+      "passed": true
+    },
+    {
+      "check": "teacher_no_forbidden:M_stationery:secondary_patterns",
+      "passed": true
+    },
+    {
+      "check": "teacher_has_goal:M_stationery",
+      "passed": true
+    },
+    {
+      "check": "teacher_has_process:M_stationery",
+      "passed": true
+    },
+    {
+      "check": "teacher_has_evidence:M_stationery",
+      "passed": true
+    },
+    {
+      "check": "ledger_key:M_stationery:unit_phase_role",
+      "passed": true
+    },
+    {
+      "check": "ledger_key:M_stationery:practice_intensity",
+      "passed": true
+    },
+    {
+      "check": "ledger_key:M_stationery:teacher_support_density",
+      "passed": true
+    },
+    {
+      "check": "ledger_key:M_stationery:events",
+      "passed": true
+    },
+    {
+      "check": "ledger_event_count:M_stationery",
+      "passed": true
+    },
+    {
+      "check": "event_key:M_stationery:M_01_structure_recall:event_id",
+      "passed": true
+    },
+    {
+      "check": "event_key:M_stationery:M_01_structure_recall:primary_pattern",
+      "passed": true
+    },
+    {
+      "check": "event_key:M_stationery:M_01_structure_recall:component_trigger",
+      "passed": true
+    },
+    {
+      "check": "event_key:M_stationery:M_01_structure_recall:screen_trigger",
+      "passed": true
+    },
+    {
+      "check": "event_key:M_stationery:M_01_structure_recall:learning_sheet_fields",
+      "passed": true
+    },
+    {
+      "check": "event_key:M_stationery:M_01_structure_recall:evidence_outputs",
+      "passed": true
+    },
+    {
+      "check": "component_status:M_stationery:M_01_structure_recall:circle_and_annotate",
+      "passed": true
+    },
+    {
+      "check": "event_key:M_stationery:M_02_designer_thinking:event_id",
+      "passed": true
+    },
+    {
+      "check": "event_key:M_stationery:M_02_designer_thinking:primary_pattern",
+      "passed": true
+    },
+    {
+      "check": "event_key:M_stationery:M_02_designer_thinking:component_trigger",
+      "passed": true
+    },
+    {
+      "check": "event_key:M_stationery:M_02_designer_thinking:screen_trigger",
+      "passed": true
+    },
+    {
+      "check": "event_key:M_stationery:M_02_designer_thinking:learning_sheet_fields",
+      "passed": true
+    },
+    {
+      "check": "event_key:M_stationery:M_02_designer_thinking:evidence_outputs",
+      "passed": true
+    },
+    {
+      "check": "component_status:M_stationery:M_02_designer_thinking:compare_two_images",
+      "passed": true
+    },
+    {
+      "check": "event_key:M_stationery:M_03_one_plus_one:event_id",
+      "passed": true
+    },
+    {
+      "check": "event_key:M_stationery:M_03_one_plus_one:primary_pattern",
+      "passed": true
+    },
+    {
+      "check": "event_key:M_stationery:M_03_one_plus_one:component_trigger",
+      "passed": true
+    },
+    {
+      "check": "event_key:M_stationery:M_03_one_plus_one:screen_trigger",
+      "passed": true
+    },
+    {
+      "check": "event_key:M_stationery:M_03_one_plus_one:learning_sheet_fields",
+      "passed": true
+    },
+    {
+      "check": "event_key:M_stationery:M_03_one_plus_one:evidence_outputs",
+      "passed": true
+    },
+    {
+      "check": "component_status:M_stationery:M_03_one_plus_one:photo_submit",
+      "passed": true
+    },
+    {
+      "check": "event_key:M_stationery:M_04_one_plus_n:event_id",
+      "passed": true
+    },
+    {
+      "check": "event_key:M_stationery:M_04_one_plus_n:primary_pattern",
+      "passed": true
+    },
+    {
+      "check": "event_key:M_stationery:M_04_one_plus_n:component_trigger",
+      "passed": true
+    },
+    {
+      "check": "event_key:M_stationery:M_04_one_plus_n:screen_trigger",
+      "passed": true
+    },
+    {
+      "check": "event_key:M_stationery:M_04_one_plus_n:learning_sheet_fields",
+      "passed": true
+    },
+    {
+      "check": "event_key:M_stationery:M_04_one_plus_n:evidence_outputs",
+      "passed": true
+    },
+    {
+      "check": "component_status:M_stationery:M_04_one_plus_n:material_choice_board",
+      "passed": true
+    },
+    {
+      "check": "event_key:M_stationery:M_05_showcase_transfer:event_id",
+      "passed": true
+    },
+    {
+      "check": "event_key:M_stationery:M_05_showcase_transfer:primary_pattern",
+      "passed": true
+    },
+    {
+      "check": "event_key:M_stationery:M_05_showcase_transfer:component_trigger",
+      "passed": true
+    },
+    {
+      "check": "event_key:M_stationery:M_05_showcase_transfer:screen_trigger",
+      "passed": true
+    },
+    {
+      "check": "event_key:M_stationery:M_05_showcase_transfer:learning_sheet_fields",
+      "passed": true
+    },
+    {
+      "check": "event_key:M_stationery:M_05_showcase_transfer:evidence_outputs",
+      "passed": true
+    },
+    {
+      "check": "component_status:M_stationery:M_05_showcase_transfer:gallery_walk",
+      "passed": true
+    },
+    {
+      "check": "input_sample:N_paper_print",
+      "passed": true
+    },
+    {
+      "check": "draft_exists:N_paper_print",
+      "passed": true
+    },
+    {
+      "check": "ledger_exists:N_paper_print",
+      "passed": true
+    },
+    {
+      "check": "teacher_no_forbidden:N_paper_print:practice_pattern_type",
+      "passed": true
+    },
+    {
+      "check": "teacher_no_forbidden:N_paper_print:demonstration_type",
+      "passed": true
+    },
+    {
+      "check": "teacher_no_forbidden:N_paper_print:micro_practice_type",
+      "passed": true
+    },
+    {
+      "check": "teacher_no_forbidden:N_paper_print:appreciation_scaffold_type",
+      "passed": true
+    },
+    {
+      "check": "teacher_no_forbidden:N_paper_print:component_trigger",
+      "passed": true
+    },
+    {
+      "check": "teacher_no_forbidden:N_paper_print:component_trigger_status",
+      "passed": true
+    },
+    {
+      "check": "teacher_no_forbidden:N_paper_print:screen_trigger",
+      "passed": true
+    },
+    {
+      "check": "teacher_no_forbidden:N_paper_print:learning_sheet_fields",
+      "passed": true
+    },
+    {
+      "check": "teacher_no_forbidden:N_paper_print:primary_pattern",
+      "passed": true
+    },
+    {
+      "check": "teacher_no_forbidden:N_paper_print:secondary_patterns",
+      "passed": true
+    },
+    {
+      "check": "teacher_has_goal:N_paper_print",
+      "passed": true
+    },
+    {
+      "check": "teacher_has_process:N_paper_print",
+      "passed": true
+    },
+    {
+      "check": "teacher_has_evidence:N_paper_print",
+      "passed": true
+    },
+    {
+      "check": "ledger_key:N_paper_print:unit_phase_role",
+      "passed": true
+    },
+    {
+      "check": "ledger_key:N_paper_print:practice_intensity",
+      "passed": true
+    },
+    {
+      "check": "ledger_key:N_paper_print:teacher_support_density",
+      "passed": true
+    },
+    {
+      "check": "ledger_key:N_paper_print:events",
+      "passed": true
+    },
+    {
+      "check": "ledger_event_count:N_paper_print",
+      "passed": true
+    },
+    {
+      "check": "event_key:N_paper_print:N_01_task_entry:event_id",
+      "passed": true
+    },
+    {
+      "check": "event_key:N_paper_print:N_01_task_entry:primary_pattern",
+      "passed": true
+    },
+    {
+      "check": "event_key:N_paper_print:N_01_task_entry:component_trigger",
+      "passed": true
+    },
+    {
+      "check": "event_key:N_paper_print:N_01_task_entry:screen_trigger",
+      "passed": true
+    },
+    {
+      "check": "event_key:N_paper_print:N_01_task_entry:learning_sheet_fields",
+      "passed": true
+    },
+    {
+      "check": "event_key:N_paper_print:N_01_task_entry:evidence_outputs",
+      "passed": true
+    },
+    {
+      "check": "component_status:N_paper_print:N_01_task_entry:compare_two_images",
+      "passed": true
+    },
+    {
+      "check": "event_key:N_paper_print:N_02_material_observation:event_id",
+      "passed": true
+    },
+    {
+      "check": "event_key:N_paper_print:N_02_material_observation:primary_pattern",
+      "passed": true
+    },
+    {
+      "check": "event_key:N_paper_print:N_02_material_observation:component_trigger",
+      "passed": true
+    },
+    {
+      "check": "event_key:N_paper_print:N_02_material_observation:screen_trigger",
+      "passed": true
+    },
+    {
+      "check": "event_key:N_paper_print:N_02_material_observation:learning_sheet_fields",
+      "passed": true
+    },
+    {
+      "check": "event_key:N_paper_print:N_02_material_observation:evidence_outputs",
+      "passed": true
+    },
+    {
+      "check": "component_status:N_paper_print:N_02_material_observation:material_blind_box",
+      "passed": true
+    },
+    {
+      "check": "event_key:N_paper_print:N_03_texture_demo:event_id",
+      "passed": true
+    },
+    {
+      "check": "event_key:N_paper_print:N_03_texture_demo:primary_pattern",
+      "passed": true
+    },
+    {
+      "check": "event_key:N_paper_print:N_03_texture_demo:component_trigger",
+      "passed": true
+    },
+    {
+      "check": "event_key:N_paper_print:N_03_texture_demo:screen_trigger",
+      "passed": true
+    },
+    {
+      "check": "event_key:N_paper_print:N_03_texture_demo:learning_sheet_fields",
+      "passed": true
+    },
+    {
+      "check": "event_key:N_paper_print:N_03_texture_demo:evidence_outputs",
+      "passed": true
+    },
+    {
+      "check": "component_status:N_paper_print:N_03_texture_demo:technique_step_demo",
+      "passed": true
+    },
+    {
+      "check": "event_key:N_paper_print:N_04_first_print:event_id",
+      "passed": true
+    },
+    {
+      "check": "event_key:N_paper_print:N_04_first_print:primary_pattern",
+      "passed": true
+    },
+    {
+      "check": "event_key:N_paper_print:N_04_first_print:component_trigger",
+      "passed": true
+    },
+    {
+      "check": "event_key:N_paper_print:N_04_first_print:screen_trigger",
+      "passed": true
+    },
+    {
+      "check": "event_key:N_paper_print:N_04_first_print:learning_sheet_fields",
+      "passed": true
+    },
+    {
+      "check": "event_key:N_paper_print:N_04_first_print:evidence_outputs",
+      "passed": true
+    },
+    {
+      "check": "component_status:N_paper_print:N_04_first_print:circle_and_annotate",
+      "passed": true
+    },
+    {
+      "check": "event_key:N_paper_print:N_05_showcase:event_id",
+      "passed": true
+    },
+    {
+      "check": "event_key:N_paper_print:N_05_showcase:primary_pattern",
+      "passed": true
+    },
+    {
+      "check": "event_key:N_paper_print:N_05_showcase:component_trigger",
+      "passed": true
+    },
+    {
+      "check": "event_key:N_paper_print:N_05_showcase:screen_trigger",
+      "passed": true
+    },
+    {
+      "check": "event_key:N_paper_print:N_05_showcase:learning_sheet_fields",
+      "passed": true
+    },
+    {
+      "check": "event_key:N_paper_print:N_05_showcase:evidence_outputs",
+      "passed": true
+    },
+    {
+      "check": "component_status:N_paper_print:N_05_showcase:gallery_wall",
+      "passed": true
+    },
+    {
+      "check": "input_sample:O_color_collision",
+      "passed": true
+    },
+    {
+      "check": "draft_exists:O_color_collision",
+      "passed": true
+    },
+    {
+      "check": "ledger_exists:O_color_collision",
+      "passed": true
+    },
+    {
+      "check": "teacher_no_forbidden:O_color_collision:practice_pattern_type",
+      "passed": true
+    },
+    {
+      "check": "teacher_no_forbidden:O_color_collision:demonstration_type",
+      "passed": true
+    },
+    {
+      "check": "teacher_no_forbidden:O_color_collision:micro_practice_type",
+      "passed": true
+    },
+    {
+      "check": "teacher_no_forbidden:O_color_collision:appreciation_scaffold_type",
+      "passed": true
+    },
+    {
+      "check": "teacher_no_forbidden:O_color_collision:component_trigger",
+      "passed": true
+    },
+    {
+      "check": "teacher_no_forbidden:O_color_collision:component_trigger_status",
+      "passed": true
+    },
+    {
+      "check": "teacher_no_forbidden:O_color_collision:screen_trigger",
+      "passed": true
+    },
+    {
+      "check": "teacher_no_forbidden:O_color_collision:learning_sheet_fields",
+      "passed": true
+    },
+    {
+      "check": "teacher_no_forbidden:O_color_collision:primary_pattern",
+      "passed": true
+    },
+    {
+      "check": "teacher_no_forbidden:O_color_collision:secondary_patterns",
+      "passed": true
+    },
+    {
+      "check": "teacher_has_goal:O_color_collision",
+      "passed": true
+    },
+    {
+      "check": "teacher_has_process:O_color_collision",
+      "passed": true
+    },
+    {
+      "check": "teacher_has_evidence:O_color_collision",
+      "passed": true
+    },
+    {
+      "check": "ledger_key:O_color_collision:unit_phase_role",
+      "passed": true
+    },
+    {
+      "check": "ledger_key:O_color_collision:practice_intensity",
+      "passed": true
+    },
+    {
+      "check": "ledger_key:O_color_collision:teacher_support_density",
+      "passed": true
+    },
+    {
+      "check": "ledger_key:O_color_collision:events",
+      "passed": true
+    },
+    {
+      "check": "ledger_event_count:O_color_collision",
+      "passed": true
+    },
+    {
+      "check": "event_key:O_color_collision:O_01_campus_color:event_id",
+      "passed": true
+    },
+    {
+      "check": "event_key:O_color_collision:O_01_campus_color:primary_pattern",
+      "passed": true
+    },
+    {
+      "check": "event_key:O_color_collision:O_01_campus_color:component_trigger",
+      "passed": true
+    },
+    {
+      "check": "event_key:O_color_collision:O_01_campus_color:screen_trigger",
+      "passed": true
+    },
+    {
+      "check": "event_key:O_color_collision:O_01_campus_color:learning_sheet_fields",
+      "passed": true
+    },
+    {
+      "check": "event_key:O_color_collision:O_01_campus_color:evidence_outputs",
+      "passed": true
+    },
+    {
+      "check": "component_status:O_color_collision:O_01_campus_color:image_color_spotting",
+      "passed": true
+    },
+    {
+      "check": "event_key:O_color_collision:O_02_primary_colors:event_id",
+      "passed": true
+    },
+    {
+      "check": "event_key:O_color_collision:O_02_primary_colors:primary_pattern",
+      "passed": true
+    },
+    {
+      "check": "event_key:O_color_collision:O_02_primary_colors:component_trigger",
+      "passed": true
+    },
+    {
+      "check": "event_key:O_color_collision:O_02_primary_colors:screen_trigger",
+      "passed": true
+    },
+    {
+      "check": "event_key:O_color_collision:O_02_primary_colors:learning_sheet_fields",
+      "passed": true
+    },
+    {
+      "check": "event_key:O_color_collision:O_02_primary_colors:evidence_outputs",
+      "passed": true
+    },
+    {
+      "check": "component_status:O_color_collision:O_02_primary_colors:experiment_rule_card",
+      "passed": true
+    },
+    {
+      "check": "event_key:O_color_collision:O_03_two_color_mix:event_id",
+      "passed": true
+    },
+    {
+      "check": "event_key:O_color_collision:O_03_two_color_mix:primary_pattern",
+      "passed": true
+    },
+    {
+      "check": "event_key:O_color_collision:O_03_two_color_mix:component_trigger",
+      "passed": true
+    },
+    {
+      "check": "event_key:O_color_collision:O_03_two_color_mix:screen_trigger",
+      "passed": true
+    },
+    {
+      "check": "event_key:O_color_collision:O_03_two_color_mix:learning_sheet_fields",
+      "passed": true
+    },
+    {
+      "check": "event_key:O_color_collision:O_03_two_color_mix:evidence_outputs",
+      "passed": true
+    },
+    {
+      "check": "component_status:O_color_collision:O_03_two_color_mix:color_mixing_trial",
+      "passed": true
+    },
+    {
+      "check": "event_key:O_color_collision:O_04_color_difference:event_id",
+      "passed": true
+    },
+    {
+      "check": "event_key:O_color_collision:O_04_color_difference:primary_pattern",
+      "passed": true
+    },
+    {
+      "check": "event_key:O_color_collision:O_04_color_difference:component_trigger",
+      "passed": true
+    },
+    {
+      "check": "event_key:O_color_collision:O_04_color_difference:screen_trigger",
+      "passed": true
+    },
+    {
+      "check": "event_key:O_color_collision:O_04_color_difference:learning_sheet_fields",
+      "passed": true
+    },
+    {
+      "check": "event_key:O_color_collision:O_04_color_difference:evidence_outputs",
+      "passed": true
+    },
+    {
+      "check": "component_status:O_color_collision:O_04_color_difference:compare_color_swatches",
+      "passed": true
+    },
+    {
+      "check": "event_key:O_color_collision:O_05_color_showcase:event_id",
+      "passed": true
+    },
+    {
+      "check": "event_key:O_color_collision:O_05_color_showcase:primary_pattern",
+      "passed": true
+    },
+    {
+      "check": "event_key:O_color_collision:O_05_color_showcase:component_trigger",
+      "passed": true
+    },
+    {
+      "check": "event_key:O_color_collision:O_05_color_showcase:screen_trigger",
+      "passed": true
+    },
+    {
+      "check": "event_key:O_color_collision:O_05_color_showcase:learning_sheet_fields",
+      "passed": true
+    },
+    {
+      "check": "event_key:O_color_collision:O_05_color_showcase:evidence_outputs",
+      "passed": true
+    },
+    {
+      "check": "component_status:O_color_collision:O_05_color_showcase:gallery_walk",
+      "passed": true
+    },
+    {
+      "check": "distinct_density_profiles",
+      "passed": true,
+      "detail": [
+        "('intro_understanding', 'medium', 'normal')",
+        "('practice_creation', 'high', 'heavy')",
+        "('technique_preparation', 'medium', 'normal')"
+      ]
+    },
+    {
+      "check": "report_phrase:PASS_LOCAL_GENERATION_REGRESSION_GATE",
+      "passed": true
+    },
+    {
+      "check": "report_phrase:R223M_STANDARD_V0_2 = NOT_PUBLISHED",
+      "passed": true
+    },
+    {
+      "check": "report_phrase:NEXT_ALLOWED",
+      "passed": true
+    },
+    {
+      "check": "check_doc_pass:R223Q_teacher_default_view_quality_check.md",
+      "passed": true
+    },
+    {
+      "check": "check_doc_pass:R223Q_review_ledger_completeness_check.md",
+      "passed": true
+    },
+    {
+      "check": "check_doc_pass:R223Q_unit_intensity_effect_check.md",
+      "passed": true
+    },
+    {
+      "check": "check_doc_pass:R223Q_component_trigger_safety_check.md",
+      "passed": true
+    }
+  ]
+}
